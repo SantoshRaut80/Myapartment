@@ -1,0 +1,260 @@
+﻿
+
+      .theme_body_background {
+             background-color: #3f3f3f;
+        }
+
+       
+        .white_bg{
+             background-color:black;
+             color:white;
+        }
+
+
+
+        .theme_primary_bg
+        {
+            background-color:#fafafb;
+            color:#3f3f3f;
+            
+        }
+
+        .theme_primary_bg li
+        {
+            background-color:#fafafb;
+            color:#3f3f3f;
+            
+        }
+
+        .theme_primary_bg a
+        {
+            text-decoration:none;
+            background-color:#fafafb;
+            color:#3f3f3f;
+        }
+
+        .theme_text_only span label h4{
+            display: inline-block;
+             color:#fafafb;
+        }
+
+        label.theme_text_only {
+            color:#fafafb;
+        }
+
+        .theme_text_only {
+          
+           color:#fafafb;
+        }
+
+  
+      .theme_second_bg{
+            background-color:white;
+            color:#3f3f3f;
+        }
+
+
+
+      .theme_second_bg label{
+            background-color:white;
+            color:#3f3f3f;
+        }
+
+        .theme_third_bg{
+            background-color:#6eab91;
+            color:white;
+        }
+
+        .theme_third_bg label li{
+            background-color:#6eab91;
+            color:white;
+        }
+
+        .theme_third_bg label{
+            text-decoration:none;
+            background-color:#6eab91;
+            color:white;
+        }
+
+        .theme_third_bg a{
+            text-decoration:none;
+            background-color:#6eab91;
+            color:white;
+        }
+
+        .theme_third_main{
+            color:#6eab91;
+            background-color:transparent;
+        }
+
+        .as_bg_image {
+            background-color:#808080;
+        }
+
+        .as_primary_text{
+            color:white;
+        }
+
+        .as_primary_text label
+        {
+             color:white;
+        }
+
+
+        .theme-dropdown-content {
+       background-color: #6eab91;
+       color:black;
+        font-size:small;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index:9999;
+        text-align:center;
+        border-radius:5px;
+    
+}
+
+        .theme-dropdown-content input {
+       background-color: #6eab91;
+       color:black;
+        font-size:small;
+       
+    
+}
+
+      /*.theme_body_background {
+             background-color: white;
+        }
+
+       
+        .white_bg{
+             background-color:black;
+             color:white;
+        }
+
+
+
+        .theme_primary_bg
+        {
+            background-color:#b6313e;
+            color:#f5f5f5;
+            
+        }
+
+        .theme_primary_bg li, a
+        {
+            background-color:#b6313e;
+            color:#f5f5f5;
+            
+        }
+
+        .theme_primary_bg a
+        {
+            text-decoration:none;
+            background-color:#b6313e;
+            color:#f8f8f8;
+        }
+
+        .theme_text_only span label h4{
+            display: inline-block;
+             color:#b6313e;
+        }
+
+        label.theme_text_only {
+            color:#b6313e;
+        }
+
+        .theme_text_only {
+          
+           color:#b6313e;
+        }
+
+  
+      .theme_second_bg{
+            background-color:white;
+            color:#b6313e;
+        }
+
+
+
+      .theme_second_bg label{
+            background-color:white;
+            color:#b6313e;
+        }
+
+        .theme_third_bg{
+            background-color:#808080;
+            color:white;
+        }
+
+        .as_bg_image {
+            background-color:#808080;
+        }
+
+        .as_primary_text{
+            color:white;
+        }
+
+        .as_primary_text label
+        {
+             color:white;
+        }
+
+
+        .theme-dropdown-content {
+       background-color: #b6313e;
+        font-size:small;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index:9999;
+        text-align:center;
+        border-radius:5px;
+    
+}*/
+
+        .font_heading_1{
+            font-family: "Comic Sans MS", Times, serif;
+            font-size: 0.875em; /* 14px/16=0.875em */
+            font-weight: normal;
+        }
+
+        .font_size_1{
+            font-family: "Comic Sans MS", Times, serif;
+            font-size: 1.5em; /* 14px/16=0.875em */
+            font-weight: normal;
+        }
+
+        .font_size_2{
+            font-family: "Comic Sans MS", Times, serif;
+            font-size: 1.1em; /* 14px/16=0.875em */
+            font-weight: normal;
+        }
+
+        .font_size_2 li a{
+            font-family: "Comic Sans MS", Times, serif;
+            font-size: 1.1em; /* 14px/16=0.875em */
+            font-weight: normal;
+        }
+
+        .font_size_3{
+            font-family: "Comic Sans MS", Times, serif;
+            font-size: 1.0em; /* 14px/16=0.875em */
+            font-weight: normal;
+        }
+
+                .font_primary{
+            font-family: "Lucida Console";
+            
+        }
+
+                      .font_secondary{
+           font-family: "Comic Sans MS";
+      }
+
+
+    .theme-btn-primary{
+        color:#fff;background-color:#6eab91;border-color:#2c7a59}
+
+    .theme-btn-primary.focus,.btn-primary:focus
+    {color:#fff;background-color:#459372;border-color:#2c7a59}
+
+    .theme-btn-primary:hover{color:#fff;background-color:#459372;border-color:#2c7a59}
+                                                                                                                                                                                           .btn-primary.active,.btn-primary:active,.open>.dropdown-toggle.btn-primary{color:#fff;background-color:#286090;border-color:#204d74}
+                                                                                                                                                                                                                                                                       .btn-primary.active.focus,.btn-primary.active:focus,.btn-primary.active:hover,.btn-primary:active.focus,.btn-primary:active:focus,.btn-primary:active:hover,.open>.dropdown-toggle.btn-primary.focus,.open>.dropdown-toggle.btn-primary:focus,.open>.dropdown-toggle.btn-primary:hover{color:#fff;background-color:#204d74;border-color:#122b40}

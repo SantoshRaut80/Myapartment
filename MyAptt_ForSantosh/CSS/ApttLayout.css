@@ -1,0 +1,218 @@
+﻿
+.layout-dropdown-content {
+    display:none;
+    position:absolute;
+    /*background-color: #4598c8;
+     font-size:small;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:9999;
+    text-align:center;
+    border-radius:5px;*/
+    
+}
+
+
+.dropdown-content-edit {
+     display:none;
+    position:absolute;
+    background-color: #4598c8;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:9999;
+    text-align:center;
+    border-radius:5px;
+    
+}
+
+.layout-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom:0.4px solid #a4c4d7;
+}
+
+.layout-dropdown-content input {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom:0.4px solid #a4c4d7;
+}
+
+.layout-dropdown-content  :hover{
+    background-color:#4598c8;
+    color:#f3f0f0;
+}
+
+
+.layout_list_type
+{
+  background-color:transparent;
+  text-align:center;
+    border:0px solid white;
+    padding:9px 9px;
+    width:100%;
+    color:black;
+  border-bottom:0.4px solid #a4c4d7;
+}
+
+
+.layout_ad_banner {
+            width: 150px;
+            height: 300px;
+            border: 1px solid #c3c3c3;
+            display: -webkit-flex;
+           -webkit-flex-wrap: wrap;
+           -webkit-align-content: center;
+            align-content: center;
+            text-align:center;
+            elevation:above;
+            text-decoration:none;
+            justify-content:center;
+            color:black;
+        }
+
+    .layout_header {
+            padding: 1% 0 1% 3%;
+            font-size: large;
+            text-align: left;
+            border-radius:5px;
+            box-shadow: 0px 4px 8px 0px rgba(94,3,3,0.2);
+        }
+
+            .layout_shadow_box
+            {
+            background-color:#f2f2f2;
+            box-shadow: 0px 4px 8px 0px rgba(94,3,3,0.2);
+            z-index:9999;
+            text-align:center;
+            border-radius:5px;
+            }
+
+        .layout_shadow_table{
+            width:100%;
+            color:#808080;
+            background-color:#f2f2f2;
+            border-radius:10px;
+            border-collapse:collapse;
+            margin-bottom:5px;
+           /* border: 1px solid #c1c1c1;*/
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+        }
+
+    .layout_iframe{
+        width:100%;
+        overflow:hidden;
+        margin:0px 0px 30px 0px;
+        padding:0px;
+        border:1px solid #f3f0f0;
+        border-radius:5px; 
+        box-shadow: 0px 4px 8px 0px rgba(94,3,3,0.2);
+    }
+
+       /*.layout_header {
+        background-color:#eee5e5;
+            padding: 1% 0 1% 3%;
+            font-size: large;
+            text-align: left;
+            box-shadow: 0px 4px 8px 0px rgba(94,3,3,0.2);
+        }*/
+
+         .layout_dropdown_Button
+        {
+          background-color:transparent;
+          text-align:center;
+ 
+            border:0px solid white;
+            padding:6px 6px;
+            width:100%;
+            color:white;
+            outline:0;
+            border-bottom:0.4px solid #ffffff;
+        }
+
+       .layout_filter_box
+       {
+           background-color:white;
+           color:black;
+           border:1px solid black;
+           border-radius:2px;
+           padding:0px;
+           margin:0px;
+           height:30px;
+           width:100%;
+       }
+
+
+       .layout_ddl_filter {
+          
+            border-radius:2px;        
+            font-family:'Baskerville Old Face';
+            font-size:14px;
+            width:120px;         
+           border:1px solid #cccccc;
+           color:#000000;
+           height:25px;
+           
+             background-color: white;
+           /*  -webkit-appearance: none; 
+          background-image:url('~/Images/Icon/down_arrow.png');
+            background-position:88px;
+            background-repeat:no-repeat;*/
+            text-indent: 0.01px;/*In Firefox*/
+            outline:0;
+            text-align:center;
+            padding:0px;
+            margin:0px;
+        }
+
+
+             .layout_txtbox_filter {
+            margin:0px;
+            border-radius:0.5px;
+            padding:0px;
+            height:25px;
+            width:100px;
+             border:1px solid #cccccc;
+            font-family:'Baskerville Old Face';
+            font-size:14px;
+           -webkit-appearance: none; 
+           /* background-image:url('Images/Arrowhead-Down-01.png');*/
+            background-position:88px;
+            background-repeat:no-repeat;
+            text-indent: 0.01px;
+            resize:none;
+            outline:0;
+    }
+
+  .layout_txtbox_filter:focus{
+
+      box-shadow: 0 0 0.5px 0.5px #4dd2ff;
+  }
+
+
+         .layout_modal_Window {
+           display: none;   /*Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            padding-top: 2%; /* Location of the box */
+            left: 0;
+            top: 0;
+            overflow: auto;  /*Enable scroll if needed*/
+            background-color: #e6e2e2;
+            background-color: rgba(0,0,0,0.4); 
+            border:4px solid #e6e2e2;
+            border-radius:5px;
+           
+        }
+
+         .layout_data_table{
+             line-height:30px;
+         }
+
+         .layout_data_table input{
+             height:25px;
+         }
+
+  

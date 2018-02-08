@@ -1,0 +1,345 @@
+﻿
+
+
+@media screen and (max-width: 800px) {
+
+       .login_div
+    {
+        float:left;
+        position:fixed;
+        width:40%;
+        left:30%;
+        padding:1% 0 3% 0;
+    }
+
+
+    .div_Discussion_Notification{
+
+        width:99%;
+        float:left;
+        margin-left:0;
+        font-size:large;
+        height:auto;
+    }
+      .child_discussions_notifications
+    {
+        width:98%;
+    margin-left:1%;
+    margin-top:2%;
+     float:left;
+     height:auto;
+    }
+
+      .btnlogout_style{
+    display:none;
+}
+
+      .div_complaints_graph{
+
+    width:99%;
+    margin-top:3%;
+    margin-left:1%; 
+    float:left; 
+    height:350px;
+    overflow:auto;
+}
+.Vendors{
+  width:99%;
+  margin-top:1%;
+  margin-left:1%;
+  height:220px;
+  overflow:auto;
+    float:left;
+    cursor:pointer;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border:1px solid #bfbfbf;       
+}
+
+ .Buy_sell_Charting{
+     width:99%;
+      margin-top:1%;
+      margin-left:1%;
+       float:left; 
+       height:220px;
+       overflow:auto;
+ border:1px solid #bfbfbf;
+ cursor:pointer;
+ background-color:#f2f2f2;
+  border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+           
+ }
+
+ .Pie_Chart{
+     width:99%;
+      margin-top:1%;
+      margin-left:1%;
+       float:left; 
+       height:220px;
+       overflow:auto;
+   border:1px solid #bfbfbf;
+   cursor:pointer;
+  
+   border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+   background-color:white;
+           
+ }
+
+  #username{
+     display:none;
+ }
+
+}
+
+
+@media only screen and (max-width : 480px) {
+
+
+      .login_div
+    {
+        float:left;
+        position:fixed;
+        width:60%;
+        left:20%;
+    }
+
+      .iframe_left{
+
+  width:0%;
+}
+
+.iframe_right{
+
+ width:0%;
+}
+  
+    #lbltitle
+{
+    display:none;
+}
+
+    .btnlogout_style{
+    display:none;
+}
+    .div_Discussion_Notification{
+
+        width:99%;
+        float:left;
+        margin-left:0;
+        font-size:medium;
+    }
+
+    .child_discussions_notifications
+    {
+        width:98%;
+    margin-left:1%;
+    margin-top:2%;
+     float:left;
+     height:30px;
+    }
+    .div_complaints_graph{
+
+    width:99%;
+ margin-top:3%;
+    margin-left:1%; 
+    float:left; 
+    height:350px;
+    overflow:auto;
+}
+    .Vendors{
+  width:99%;
+  margin-top:1%;
+  margin-left:1%;
+  height:220px;
+  overflow:auto;
+    float:left;
+    cursor:pointer;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border:1px solid #bfbfbf;       
+}
+ .Buy_sell_Charting{
+     width:99%;
+      margin-top:1%;
+      margin-left:1%;
+       float:left; 
+       height:220px;
+       overflow:auto;
+ border:1px solid #bfbfbf;
+ cursor:pointer;
+ background-color:#f2f2f2;
+  border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+           
+ }
+
+ .Pie_Chart{
+     width:99%;
+      margin-top:1%;
+      margin-left:1%;
+       float:left; 
+       height:220px;
+       overflow:auto;
+   border:1px solid #bfbfbf;
+   cursor:pointer;
+  
+   border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+   background-color:white;
+           
+ }
+  #username{
+     display:none;
+ }
+
+}
+
+@media only screen and (max-width : 320px) {
+
+
+
+    /* Login Div */
+
+    .login_div
+    {
+        float:left;
+        position:fixed;
+        width:90%;
+        left:5%;
+        padding:2% 1% 5% 1%;
+    }
+    .iframe_left{
+
+  width:0%;
+}
+
+.iframe_right{
+
+ width:0%;
+}
+
+
+.iframe_center
+{
+    width:100%;
+}
+
+.btnlogout_style{
+    display:none;
+}
+    #login_user {
+        font-size: 25px;
+        color: white;
+        border-color: white;
+    }
+    #lbltitle
+{
+    display:none;
+}
+
+      .div_Discussion_Notification{
+
+        width:99%;
+        float:left;
+          margin-left:0;
+          font-size:small;
+        
+    }
+
+      .child_discussions_notifications
+      {
+     width:98%;
+    margin-left:2%;
+    margin-top:2%;
+     float:left;
+  border-top:2px solid #1a93ba;
+      }
+
+      .div_complaints_graph{
+
+    width:99%;
+   margin-top:3%;
+    margin-left:1%; 
+    float:left; 
+    height:350px;
+    overflow:auto;
+}
+      .Vendors{
+  width:100%;
+  margin-top:1%;
+ 
+  height:230px;
+  overflow:auto;
+  
+    cursor:pointer;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+     
+}
+ .Buy_sell_Charting{
+     width:99%;
+      margin-top:1%;
+      margin-left:1%;
+       float:left; 
+       height:220px;
+     
+ 
+ cursor:pointer;
+ background-color:#f2f2f2;
+  border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+           
+ }
+
+.Pie_Chart{
+     width:99%;
+      margin-top:1%;
+      margin-left:1%;
+       float:left; 
+       height:220px;
+       overflow:auto;
+   border:1px solid #bfbfbf;
+   cursor:pointer;
+  
+   border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+   background-color:white;
+           
+ }
+
+ #username{
+     display:none;
+ }
+
+
+
+}

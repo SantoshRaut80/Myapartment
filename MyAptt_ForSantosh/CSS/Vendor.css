@@ -1,0 +1,20 @@
+﻿.Vendor_Images
+{
+   width:100px;
+   height:100px;
+   border-radius:5px;
+   border-bottom-right-radius:0;
+   border-top-right-radius:0;
+}
+
+.Vendor_edit_icon{
+    float:right;
+    border:0;
+    outline:0;
+}
+
+.ImgVendorEdit{
+
+    outline:0;
+    border:0;
+}

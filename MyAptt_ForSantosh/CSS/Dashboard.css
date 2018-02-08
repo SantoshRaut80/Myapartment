@@ -1,0 +1,350 @@
+﻿
+
+
+.main_body{
+   
+  background-color:#f2f2f2;
+  text-align:center;
+}
+
+
+.circle{
+       border-radius:50%;
+       background-color: #9fdfbf;
+}
+
+.circle:hover{
+
+    width:80%;
+    height:80px;
+    background-color:#8cd98c;
+
+}
+
+h4{
+    text-decoration:none;
+    font-weight:lighter;
+    font-size:medium;
+    font-family:Calibri;
+}
+
+h5{
+    font-size:smaller;
+    text-decoration:none;
+    font-weight:lighter;
+}
+
+.div_Discussion_Notification{
+     width:60%;
+     margin-top:1%;
+      float:left; 
+      margin-right:0;
+      height:350px;
+     border-top-left-radius:5px;
+      border-top-right-radius:5px;
+      border-bottom-left-radius:5px;
+       border-bottom-right-radius:5px;
+   
+      font-size:x-large;
+ }
+
+.child_discussions_notifications{
+
+    width:49.5%;
+    margin-top:2%;
+     float:left;
+   
+     height:30px;
+}
+
+.div_complaints_graph{
+
+    width:39%;
+    margin-top:1%;
+    margin-left:1%; 
+    float:left; 
+    height:350px;
+    overflow:auto;
+      
+}
+
+.Vendors_dropdownlist{
+
+    width:160px;
+    height:35px;
+    color:white;
+    background-color:#006699;
+    font-family:'Baskerville Old Face';
+    border:1px solid #bfbfbf;
+    cursor:pointer;
+    text-align:center;
+    border-style:solid;
+    outline:0;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+
+.Vendors_dropdownlist >option :hover{
+
+   background-color:black;
+}
+
+
+.Welcome_box
+{
+    border:thin;
+     background-color:#e27e36; 
+     float:left;
+}
+
+.Welcome_box_close
+{
+    padding:5px 10px;
+     background-color:#e68c4d;
+     border-style:solid;
+     border-color:#e27e36;
+     float:right;  
+     color:white;
+}
+
+.Welcome_box_close:hover{
+
+    background-color: #efb78f;
+    font-weight:bold;
+}
+
+.Welcome_box_label
+{
+    font-size:medium;
+    font-weight:lighter;
+
+}
+
+
+.Complaint_box{
+
+    background-color:black;
+    float:left;
+    color:white;
+       text-align:center;
+     cursor:pointer;
+         border-top-left-radius:5px;
+          border-top-right-radius:5px;
+             border-bottom-left-radius:5px;
+             border-bottom-right-radius:5px;
+            
+}
+
+.Complaint_box:hover{
+
+    background-color:black;
+    float:left;
+   
+} 
+
+.Discussion_box{
+    width:100%;
+    margin-top:1%;
+
+       top:70px; 
+        height:160px;
+    background-color:#3399ff;
+    float:left;
+    color:white;
+    text-align:center;
+    cursor:pointer;
+        border-top-left-radius:5px;
+          border-top-right-radius:5px;
+             border-bottom-left-radius:5px;
+             border-bottom-right-radius:5px;
+            
+}
+
+.Discussion_box::after hover{
+    background-color:#0099cc;
+    float:left;
+     box-shadow: 2px 2px 5px #0099cc;
+}
+
+.Disscussion_recent
+{
+    font-size:medium;
+    background-color:#002633;
+    border-top-left-radius:10px;
+     border-top-right-radius:10px;
+     border-top-right-radius:10px;
+     border-bottom-left-radius:25px;
+     border-bottom-right-radius:70px;
+            
+}
+
+.Residents_Details{
+
+    background-color:#53c68c;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+.Vendors{
+  width:30%;
+  margin-top:1%;
+
+  height:220px;
+  overflow:auto;
+    float:left;
+    cursor:pointer;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border:1px solid #bfbfbf;       
+}
+
+
+ .Buy_sell_Charting{
+     width:30%;
+      margin-top:1%;
+      margin-left:1%;
+       float:left; 
+       height:220px;
+       overflow:auto;
+ border:1px solid #bfbfbf;
+ cursor:pointer;
+ background-color:#f2f2f2;
+  border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+           
+ }
+
+
+  .Pie_Chart{
+     width:37%;
+      margin-top:1%;
+      margin-left:1%;
+       float:left; 
+       height:220px;
+       overflow:auto;
+   border:1px solid #bfbfbf;
+   cursor:pointer;
+  
+   border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+   background-color:white;
+           
+ }
+
+  .Recent_Discussions_Box {
+     font-size:small;
+     font-weight:bold;
+      color: #737373;
+     text-align:left;
+   border:1px solid #bfbfbf;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+  
+   
+ }
+
+ .Discussions_Box_header {
+     font-size:medium;
+     border:1px solid #dbd5d5;
+     color: #5a5858;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+
+ 
+  
+ }
+
+ .buy_sell_div{
+
+   
+    border-bottom:1px solid #d9d9d9;
+    color:white;
+    font-weight:bold;
+    font-size:large;
+ }
+  
+
+ .lblSubj{
+
+     color: #595959;
+     font-size:medium;
+    
+ }
+ 
+ .lbltime{
+
+     font-size:small;
+     font-weight:lighter;
+      color: #009999;
+ }
+
+ .lblComplaints{
+     text-align:left;
+     font-size:large;
+ }
+
+ .lblvalue{
+     font-size:medium;
+
+ }
+ .lblPercentages{
+
+     font-size:large;
+     color:crimson;
+ }
+
+ /*   Comlplints rotate*/
+
+
+
+
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+#Complint_backside:hover #f1_card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+}
+.face {
+
+  backface-visibility: hidden;
+}
+    .face.back {
+        display: block;
+        transform: rotateY(180deg);
+        box-sizing: border-box;
+      
+        color: white;
+        text-align: center;
+        background-color: black;
+         float:left;
+          cursor:pointer;
+         border-top-left-radius:5px;
+          border-top-right-radius:5px;
+             border-bottom-left-radius:5px;
+             border-bottom-right-radius:5px;
+    }
